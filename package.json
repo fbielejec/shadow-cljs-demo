@@ -6,15 +6,12 @@
   "scripts": {
     "watch": "shadow-cljs watch dev",
     "compile": "shadow-cljs compile dev",
-    "release": "shadow-cljs release dev",
-    "serve": "http-server public/",
     "delete": "rm -r public/js/* out/*",
     "build": "yarn release && yarn serve"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "^0.11.1",
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-cljs-test": "^0.1.0",

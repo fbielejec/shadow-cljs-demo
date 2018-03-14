@@ -1,13 +1,6 @@
 # shadow-cljs-demo
 
-Who-to integrate [shadow-cljs](https://shadow-cljs.github.io/docs/UsersGuide.html) with cider.
-Specifically application demos:
-
-* getting cljs REPL in emacs-cider
-* including macros
-* including npm dependencies
-* including clojar dependencies
-* running CI tests with karma
+How-to integrate [shadow-cljs](https://shadow-cljs.github.io/docs/UsersGuide.html) with cider.
 
 ## Development:
 

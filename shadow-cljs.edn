@@ -8,5 +8,5 @@
                            :before-load app.core/stop
                            :after-load app.core/start}}
           :ci {:target :karma
-                     :output-to "out/ci.js"
-                     :ns-regexp "-test$"}}}
+               :output-to "out/ci.js"
+               :ns-regexp "-test$"}}}
