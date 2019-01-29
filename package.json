@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "watch": "shadow-cljs watch dev",
-    "compile": "shadow-cljs compile dev",
+    "watch": "shadow-cljs watch app",
+    "compile": "shadow-cljs compile app",
     "delete": "rm -r public/js/* out/*",
     "build": "yarn release && yarn serve"
   },
@@ -15,7 +15,7 @@
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-cljs-test": "^0.1.0",
-    "shadow-cljs": "^2.1.21"
+    "shadow-cljs": "^2.7.17"
   },
   "dependencies": {
     "left-pad": "^1.2.0"
